@@ -1,11 +1,11 @@
-body { font-family: 'Montserrat', Arial, sans-serif; background: #f6f8fa; color: #1b1f23;}
-header { background: linear-gradient(90deg, #0645AD, #0093D1); color: #fff; padding-bottom: 55px;}
+body { font-family: 'Montserrat', Arial, sans-serif; background: #b34f8b; color: #1b1f23;border: #fff;}
+header { background: linear-gradient(90deg, #e7e7f5, #071b19); color: #ffffff; padding-bottom: 55px;}
 .hero { display: flex; align-items: center; flex-direction: column; text-align: center; margin: 55px 0 35px 0;}
 .profile-pic { width: 110px; height: 110px; border-radius: 60px; border: 4px solid #fff; margin-bottom: 12px; object-fit: cover;}
 nav { display: flex; justify-content: space-between; align-items: center; padding: 22px 6%; }
 nav .logo { font-size: 2em; font-weight: bold;}
 nav ul { list-style: none; display: flex; gap: 32px;}
-nav a { color: #fff; font-weight: 500; text-decoration: none;}
+nav a { color: #ffffff; font-weight: 500; text-decoration: none;}
 nav a:hover { text-decoration: underline;}
 section { padding: 45px 7%;}
 .skills-grid, .projects-grid, .certs-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(225px,1fr)); gap: 25px;}
@@ -19,6 +19,6 @@ section { padding: 45px 7%;}
 #contactForm button { padding: 12px 24px; background: #0645AD; color: #fff; border: none; border-radius: 7px; font-size: 1em;}
 #contactForm button:hover { background: #0093D1; }
 #successMsg { margin-top: 22px; color: #229d52; font-weight: bold;}
-footer { background: #f6f8fa; text-align: center; padding: 28px 0; font-size: 1em; color: #222;}
+footer { background: #afb0b1; text-align: center; padding: 28px 0; font-size: 1em; color: #222;}
 .socials a { color: #0093D1; text-decoration: none; font-weight: 500;}
 .socials a:hover { text-decoration: underline;}

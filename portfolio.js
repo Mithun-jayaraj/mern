@@ -1,4 +1,4 @@
-// Smooth scroll navigation
+
 document.querySelectorAll('nav a').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     e.preventDefault();
@@ -6,11 +6,11 @@ document.querySelectorAll('nav a').forEach(anchor => {
   });
 });
 
-// Contact form validation and submission
+
 const contactForm = document.getElementById('contactForm');
 contactForm.addEventListener('submit', function(e) {
   e.preventDefault();
-  // Validate fields
+  
   let valid = true;
   const formData = {};
   Array.from(contactForm.elements).forEach(el => {
@@ -23,7 +23,7 @@ contactForm.addEventListener('submit', function(e) {
     return;
   }
 
-  // Display success message
+
   const msg = document.getElementById('successMsg');
   msg.style.display = 'block';
   msg.innerHTML = `<strong>Thank you for your message!</strong><br>
